@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 	
-	public static boolean Palindrome(int num) {
+	public static boolean isPalindrome(int num) {
 		int i = num;
 		int rev = 0;
 		
@@ -26,11 +26,11 @@ public class Main {
 		int num = scan.nextInt();
 		
 		if (Palindrome(num)) {
-			System.out.println("Palindrome");
+			System.out.println("isPalindrome");
 		}
 		
 		else {
-			System.out.println("Not Palindrome");
+			System.out.println("Not isPalindrome");
 		}
 		
 	}
